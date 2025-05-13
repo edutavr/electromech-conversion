@@ -9,7 +9,7 @@ B = 1.2  # Densidade de fluxo magnetico maximo admissivel no nucleo em T (típic
 J = 2.5  # A/mm² (densidade de corrente)
 
 # 1. Área da seccao transversal do núcleo
-A = math.sqrt(P)  # cm²
+A = math.sqrt(P)  # cm²  essa formula nao eh diretamente descrita no livro, mas eh utilizada como uma estimativa rapida para projetos de baixa potencia
 A_m2 = A * 1e-4  # para cálculo com B em T e f em Hz
 
 # 2. Espiras por volt (e)
